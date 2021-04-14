@@ -9,8 +9,13 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;600;800&display=swap" rel="stylesheet">
+
   <!-- Styles -->
   <link href="css/styles.css" rel="stylesheet">
+
 
   <title>Frontend Mentor | Interactive pricing component</title>
 
@@ -33,24 +38,26 @@
 
 <body>
 
-  <div class="container-fluid container-responsive">
+  <div class="container-fluid container-responsive" id="main-container">
 
     <!-- HEADER -->
-    <div class="title row d-flex justify-content-center">
+    <div class=" header">
+      <div class="title row d-flex justify-content-center">
 
 
-      <div class="col-sm d-flex justify-content-center">
-        <p>Simple, traffic-based pricing</p>
+        <div class="col-sm d-flex justify-content-center">
+          <p id="title-phrase">Simple, traffic-based pricing</p>
+        </div>
+
       </div>
 
-    </div>
+      <div class="title row d-flex justify-content-center">
 
-    <div class="title row d-flex justify-content-center">
+        <div class="col-sm d-flex justify-content-center">
+          <p id="introduction"> Sign-up for our 30-day trial. No credit card required.</p>
+        </div>
 
-      <div class="col-sm d-flex justify-content-center">
-        <p> Sign-up for our 30-day trial. No credit card required.</p>
       </div>
-
     </div>
 
 
@@ -59,26 +66,29 @@
     <div class="container" id="component">
       <div class="row d-flex justify-content-center">
         <div class="col-sm d-flex justify-content-center">
-          <p><span id="quantity">100K</span> Pageviews</p>
+          <p><span id="quantity">100K</span> PAGEVIEWS</p>
         </div>
         <div class="col-sm d-flex justify-content-center">
-          <p>$<span id="value">16.00</span> /month </p>
+          <p><span id="value">$16.00</span> /month </p>
         </div>
       </div>
 
       <!-- Range Bar -->
       <div class="row ">
         <div class="col-sm d-flex justify-content-center">
-          <input type="range" class="form-range" value="2"min="0" max="4" step="1" id="rangeBar">
+          <input type="range" class="form-range" value="2" min="0" max="4" step="1" id="rangeBar">
         </div>
-        
+
       </div>
 
 
       <div class="row ">
         <div class="col-sm d-flex justify-content-center">
-          
-          <p>Monthly Billing Yearly Billing 25% discount</p>
+
+          <p>Monthly Billing <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label> Yearly Billing 25% discount</p>
         </div>
       </div>
 
