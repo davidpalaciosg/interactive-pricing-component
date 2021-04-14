@@ -151,8 +151,8 @@ input:checked + .slider:before {
   padding-bottom: 40px;
   border-top: 1px solid hsla(223, 48%, 87%, 0.616);
 }
-#list{
-    list-style-type: none;
+#list {
+  list-style-type: none;
 }
 
 .fa-check {
@@ -171,12 +171,10 @@ input:checked + .slider:before {
   background-color: hsl(227, 35%, 25%);
 }
 
-
-
 /* ATRIBUTTION */
-.attribution{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    text-align: center;
+.attribution {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
 }
