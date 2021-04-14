@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/davidpalaciosg/interactive-pricing-component)
+- Solution URL: https://github.com/davidpalaciosg/interactive-pricing-component
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://davidpalaciosg.github.io/interactive-pricing-component/
 
 ### Built with
 
