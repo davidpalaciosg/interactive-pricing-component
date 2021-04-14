@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/davidpalaciosg/interactive-pricing-component
+- Solution URL: https://www.frontendmentor.io/solutions/challenge-completed-using-bootsrap-and-custom-css-lBzZrU-wp
 
 - Live Site URL: https://davidpalaciosg.github.io/interactive-pricing-component/
 
