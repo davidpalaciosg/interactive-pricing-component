@@ -11,7 +11,6 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
   - [Built with](#built-with)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
