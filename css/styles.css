@@ -24,6 +24,7 @@ body{
     height: 40px;
 }
 
+/* COMPONENT  */
 #component{
     margin-top: 50px;
     background-color: white;
@@ -34,6 +35,25 @@ body{
     
 }
 
+/* COMPONENT HEADER */
+
+#pageviews{
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgba(128, 128, 128, 0.671);
+}
+#value-text{
+    padding-top: 25px;
+    color: rgba(128, 128, 128, 0.671);
+}
+#value{
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
 #start{
     width: 300px;
     margin: 15px;
@@ -41,16 +61,43 @@ body{
 
 /* Slider */
 #rangeBar{
+    margin: 0px 0 30px 0;
+    width: 450px;
     color: hsl(174, 77%, 80%);
+    
 }
+
+/* BILLING */
+#billing-text{
+    padding-bottom: 35px;
+    
+    color: rgb(119, 117, 117);
+    font-size: 15PX;
+}
+#billing-time{
+    margin-left: 20px;
+}
+
+#discount{
+    margin-left: 10px;
+    padding: 5px;
+    
+    font-size: 12px;
+    background-color: hsl(14, 92%, 95%);
+    color: hsl(15, 100%, 70%);
+    border-radius: 5%;
+}
+
 
 /* ******************** TOOGLE BUTTON ********************/
 /* The switch - the box around the slider */
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 30px;
   }
   
   /* Hide default HTML checkbox */
@@ -68,7 +115,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: hsl(223, 50%, 87%);
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -76,8 +123,8 @@ body{
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 20px;
+    width: 20px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -86,7 +133,7 @@ body{
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: hsl(174, 77%, 80%);
   }
   
   input:focus + .slider {
@@ -94,17 +141,26 @@ body{
   }
   
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
   }
   
   /* Rounded sliders */
   .slider.round {
-    border-radius: 34px;
+    border-radius: 30px;
   }
   
   .slider.round:before {
     border-radius: 50%;
   }
   /*****************************************/
+
+
+  /* COMPONENT FOOTER  */
+  /* FOOTER */
+  .footer{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      border-top: 1px solid hsla(223, 48%, 87%, 0.616);
+  }
