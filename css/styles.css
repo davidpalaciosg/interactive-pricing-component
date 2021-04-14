@@ -1,166 +1,182 @@
-
-body{
-    font-family: 'Manrope', sans-serif;
-    background-image: url("../images/bg-pattern.svg") ;
-    background-repeat: no-repeat;
-    background-color: white;
+body {
+  font-family: "Manrope", sans-serif;
+  background-image: url("../images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-color: hsl (0, 0%, 100%);
 }
 /* HEADER */
-.header{
-    background-image: url("../images/pattern-circles.svg") ;
-    background-repeat: no-repeat;
-    background-position: center 40px;
-    
+.header {
+  background-image: url("../images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center 40px;
 }
-#title-phrase{
-    padding-top: 80px;
-    font-size: 23px;
-    font-weight: 800;
-    
-
+#title-phrase {
+  padding-top: 80px;
+  font-size: 23px;
+  font-weight: 800;
 }
-#introduction{
-    font-size: 15px;
-    height: 40px;
+#introduction {
+  font-size: 15px;
+  height: 40px;
 }
 
 /* COMPONENT  */
-#component{
-    margin-top: 50px;
-    background-color: white;
-    
-    border-radius: 2%;
-    max-width: 550px !important;
-    box-shadow: 0 0 18px gainsboro;
-    
+#component {
+  margin-top: 50px;
+  background-color: white;
+
+  border-radius: 2%;
+  max-width: 550px !important;
+  box-shadow: 0 10px 18px gainsboro;
 }
 
 /* COMPONENT HEADER */
 
-#pageviews{
-    padding-top: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    color: rgba(128, 128, 128, 0.671);
+#pageviews {
+  padding-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: rgba(128, 128, 128, 0.671);
 }
-#value-text{
-    padding-top: 25px;
-    color: rgba(128, 128, 128, 0.671);
+#value-text {
+  padding-top: 25px;
+  color: rgba(128, 128, 128, 0.671);
 }
-#value{
-    font-weight: bold;
-    font-size: 40px;
-    color: black;
-}
-
-#start{
-    width: 300px;
-    margin: 15px;
+#value {
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
 }
 
 /* Slider */
-#rangeBar{
-    margin: 0px 0 30px 0;
-    width: 450px;
-    color: hsl(174, 77%, 80%);
-    
+#rangeBar {
+  margin: 0px 0 30px 0;
+  width: 450px;
+  color: hsl(174, 77%, 80%);
 }
 
 /* BILLING */
-#billing-text{
-    padding-bottom: 35px;
-    
-    color: rgb(119, 117, 117);
-    font-size: 15PX;
+#billing-text {
+  padding-bottom: 35px;
+
+  color: rgb(119, 117, 117);
+  font-size: 15px;
 }
-#billing-time{
-    margin-left: 20px;
+#billing-time {
+  margin-left: 20px;
 }
 
-#discount{
-    margin-left: 10px;
-    padding: 5px;
-    
-    font-size: 12px;
-    background-color: hsl(14, 92%, 95%);
-    color: hsl(15, 100%, 70%);
-    border-radius: 5%;
-}
+#discount {
+  margin-left: 10px;
+  padding: 5px;
 
+  font-size: 12px;
+  background-color: hsl(14, 92%, 95%);
+  color: hsl(15, 100%, 70%);
+  border-radius: 5%;
+}
 
 /* ******************** TOOGLE BUTTON ********************/
 /* The switch - the box around the slider */
 .switch {
-    position: relative;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 50px;
-    height: 30px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: hsl(223, 50%, 87%);
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: hsl(174, 77%, 80%);
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(20px);
-    -ms-transform: translateX(20px);
-    transform: translateX(20px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 30px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
-  /*****************************************/
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 30px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(223, 50%, 87%);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: hsl(174, 77%, 80%);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*****************************************/
+
+/* COMPONENT FOOTER  */
+/* FOOTER */
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid hsla(223, 48%, 87%, 0.616);
+}
+#list{
+    list-style-type: none;
+}
+
+.fa-check {
+  color: hsl(174, 77%, 80%);
+  margin-right: 10px;
+}
+
+/* Start Button */
+
+#start-button {
+  width: 200px;
+  font-size: 15px;
+  height: 45px;
+  border-radius: 35px;
+  margin: 15px;
+  background-color: hsl(227, 35%, 25%);
+}
 
 
-  /* COMPONENT FOOTER  */
-  /* FOOTER */
-  .footer{
-      padding-top: 40px;
-      padding-bottom: 40px;
-      border-top: 1px solid hsla(223, 48%, 87%, 0.616);
-  }
+
+/* ATRIBUTTION */
+.attribution{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+}
